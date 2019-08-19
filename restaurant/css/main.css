@@ -537,13 +537,13 @@ button:focus {
   }
 }
 /*Media queries_______________________________________________________________*/
-/* 1369 - 1600 px */
+/* 1201 - ~ px */
 @media screen and (min-width: 1201px) {
      div.col-2.col-lg-1.ml-auto {
         display: none;
     }
 }
-/* 961 - 1368 px */
+/* 993 - 1200 px */
 @media screen and (max-width: 1200px) {
     .title {
     padding: 11% 0 0 8%;
@@ -577,8 +577,11 @@ nav {
     text-align: center;
     margin-top: 60px;
 }
+.cook {
+    margin: 0 0 20px 0;
 }
-/* 769 - 960 px */
+}
+/* 769 - 992 px */
 @media screen and (max-width: 992px) {
     .slick-track {
     height: 350px;
