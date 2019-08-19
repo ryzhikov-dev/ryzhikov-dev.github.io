@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Меню / Luxury Restaurant</title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--Playfair and Sintony fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<!-- Slick slider -->
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="main-header">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-3 col-lg-3 col-xl-2">
+						<img class="logo animated fadeInLeft" src="img/logo.png" alt="Luxury Restaurant">
+					</div>
+					<div class="col-7 col-lg-8  col-xl-7 offset-xl-0">	
+						<nav>
+							<ul class="menu d-flex justify-content-between animated fadeInDown">
+								<li class="menu__item">
+									<a href="index.html">домой</a>
+								</li>
+								<li class="menu__item">
+									<a href="menu.html">меню</a>
+								</li>
+								<li class="menu__item">
+									<a href="reservation.html">резервация</a>
+								</li>
+								<li class="menu__item">
+									<a href="contacts.html">контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-2 col-lg-1 ml-auto">
+						<div id="nav-icon1">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						</div>
+					</div>
+					<div class="col-xl-3">
+						<a href="reservation.html" class="reserv">
+							<button class="book cta d-flex justify-content-center animated fadeInRight" >
+							<span class="book__icon"></span>
+							Закажите ваш столик
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="reservation" id="reservation">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="request-title">
+						Бронирование
+					</h2>
+					<form action="#">
+						  <div class="form-row">
+						    <div class="form-group col-md-6">
+						      <label for="inputEmail4">Email</label>
+						      <input type="email" class="form-control" id="inputEmail4" placeholder="Адрес вашей почты" required>
+						    </div>
+						    <div class="form-group col-md-6">
+						      <label for="inputPassword4">Телефон</label>
+						      <input type="tel" class="form-control" id="inputPassword4" placeholder="+8-(748)-999-99-99" required>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputAddress">Ваши ФИО</label>
+						    <input type="text" class="form-control" id="inputAddress" placeholder="Иванов Иван Иванович" required>
+						  </div>
+						  <div class="form-row">
+						    <div class="form-group col-md-6">
+						      <label for="inputCity">Дата</label>
+						      <input type="datetime-local" class="form-control" id="inputCity" required>
+						    </div>
+						    <div class="form-group col-md-6">
+						      <label for="inputZip">Количество бронируемых мест</label>
+						      <input type="number" class="form-control" id="inputZip" required>
+						    </div>
+						  </div>
+						  
+						  <div class="form-group">
+						    <label for="Textarea">Комментарий</label>
+						    <textarea class="form-control" id="Textarea" placeholder="Оставьте сообщение"></textarea>
+						  </div>
+						  <button type="submit" class="btn cta m-auto">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="socials d-flex justify-content-center">
+						<li class="socials__item socials__item_fb">
+							<a href="#"></a>
+						</li>
+						<li class="socials__item socials__item_tw">
+							<a href="#"></a>
+						</li>
+						<li class="socials__item socials__item_g">
+							<a href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+				<div class="col-lg-4">
+					<div class="credits">
+						2019 ©   Все права защищены
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="preloader" id="preloader">
+		<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	</div>
+	<!--Jquery-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Slick slider -->
+	<script src="slick/slick.js"></script>
+	<!--Scripts-->
+	<script src="js/main.js"></script>
+</body>
+</html>
